@@ -1,0 +1,215 @@
+*{
+    margin: 0;http://localhost:31476/receipt.aspx
+    padding: 0;
+
+}
+body{
+    background-image: url("re2.jpg");
+    background-size: 100%;
+    background-attachment:fixed;
+    
+}
+
+
+nav{
+    width:auto; height: 60px;
+    background-color: black;
+    display:flex; justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li a{
+     text-decoration: none;
+    color: rgb(135, 222, 164);
+    font-weight: bold;
+    font-size: 20px;   
+    }
+
+    
+    
+   
+ul,li
+{
+    list-style: none;
+}
+
+.menu ul li{
+   float: left;
+   position: relative;
+}
+
+
+
+.logo{
+    font-style: italic;
+  font-size: 30px;
+  color: aliceblue;
+  
+  margin-left: 90px;
+position: relative;
+    animation-name: example1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example1 {
+    0%   {transform:translateX(-8px) rotate(2deg); }
+    25%  {transform:translateX(8px) rotate(-2deg);}
+    50%  {transform:translateX(-8px) rotate(2deg);}
+    75%  {transform:translateX(8px) rotate(-2deg);}
+    100% {transform:translateX(-8px) rotate(2deg);}
+        
+}
+.menu a{
+    display: block;
+    padding: 19px 20px;
+   
+}
+.menu a:hover {
+    background-color: orange;
+    
+     
+}
+
+.menu ul li a i{
+    color:skyblue;
+       transition:1s;
+}
+
+.menu ul li a:hover i{
+    color:white;
+    transform:rotate(360deg) scale(1.5);
+    
+}
+
+.main{
+    width: 100%;
+    height: 85vh;
+    font-style: italic;
+    font-size: 40px;
+    color: rgb(60, 219, 86);
+    text-align: center;
+     
+}
+
+.menu ul li a i{
+    color:skyblue;
+       transition:1s;
+}
+
+.menu ul li a:hover i{
+    color:white;
+    transform:rotate(360deg) scale(1.5);
+ 
+}
+
+.submenu{
+    background-color: black;
+    width: 120px;
+    position: absolute;
+    display: none;
+    }
+.submenu li a{
+    width: 80px;
+}
+
+.menu ul li:hover .submenu{
+display: block;
+}
+
+.submenu li{
+position: relative;
+
+}
+span{
+    color: red;
+    font-style: oblique ;
+    font-size: 35px;
+}
+/*menu end*/
+div.main{
+
+    
+    background-size: 80%;
+    filter: brightness(0.6);
+}
+/*.card{
+    text-align: center;
+    font-size: 40px;
+}*/
+.box{ margin-top: 10px;
+    background-color: #0000019a;
+    width: 45%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(242 237 63);
+}
+.card-title{
+    text-align: center;
+    font-size: 40px
+}
+.card-title1{
+    font-size: 25px;
+    text-align: initial;
+}
+.card-title2,.card-title3,.card-title6,.card-title9{
+    margin-top: 40px;
+    font-size: 25px;
+    text-align: initial;
+}
+.card-title7,.card-title8{
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: initial;
+}
+.Flatno,.Floor{
+    margin-top: 7px;
+    
+}
+
+
+.Address,.age,.panno,.occupation,.washarea,.openbalcony,
+.landarea,.Wast,.South,.Name2,.Name3{
+    margin-top: 7px;
+}
+
+
+
+.view{
+    margin-left: 13%;
+    margin-top: 10px;
+}
+.view2{
+    margin-left: 13%;
+    margin-top: 8px;
+}
+.East,.North{
+    font-size: 25px;
+    text-align: initial;
+   /* margin-left: 30px;*/
+}
+.submit{
+    margin-top: 5px;
+    text-align: center;
+}
+.registerbtn {
+   
+    padding: 10px 30px;
+    background-color: rgba(15, 140, 189, 0.856);
+    color: white;
+    border-radius: 20px;
+}
+.registerbtn:hover {
+    background-color: rgb(61, 221, 109);
+    /* border-radius:10px;*/
+}
+
+
+.main input[type="text"]
+{
+    display:block;
+    box-sizing:border-box;
+    padding:7px;
+    width:100%;
+    }

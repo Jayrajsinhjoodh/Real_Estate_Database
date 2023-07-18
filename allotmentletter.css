@@ -1,0 +1,222 @@
+body{
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 100%; height: 100vh;
+     background-image: url("rs4.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+     background-attachment:fixed;
+   
+}
+
+nav{
+    width:auto; height: 60px;
+    background-color: black;
+    display:flex; justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li a{
+     text-decoration: none;
+    color: rgb(135, 222, 164);
+    font-weight: bold;
+    font-size: 20px;   
+    }
+
+    
+    
+   
+ul,li
+{
+    list-style: none;
+}
+
+.menu ul li{
+   float: left;
+   position: relative;
+}
+
+
+.logo{
+    font-style: italic;
+  font-size: 30px;
+  color: aliceblue;
+    margin-left: 90px;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example1 {
+    0%   {transform:translateX(-8px) rotate(2deg); }
+    25%  {transform:translateX(8px) rotate(-2deg);}
+    50%  {transform:translateX(-8px) rotate(2deg);}
+    75%  {transform:translateX(8px) rotate(-2deg);}
+    100% {transform:translateX(-8px) rotate(2deg);}
+        
+}
+.menu a{
+    display: block;
+    padding: 19px 20px;
+   
+}
+.menu a:hover {
+    background-color: orange;
+    
+     
+}
+
+.menu ul li a i{
+    color:skyblue;
+       transition:1s;
+}
+
+.menu ul li a:hover i{
+    color:white;
+    transform:rotate(360deg) scale(1.5);
+    
+}
+
+.main{
+    width: 100%;
+    height: 85vh;
+    font-style: italic;
+    font-size: 40px;
+    color: rgb(60, 219, 86);
+    text-align: center;
+     
+}
+
+.menu ul li a i{
+    color:skyblue;
+       transition:1s;
+}
+
+.menu ul li a:hover i{
+    color:white;
+    transform:rotate(360deg) scale(1.5);
+ 
+}
+
+.submenu{
+    background-color: black;
+    width: 120px;
+    position: absolute;
+    display: none;
+    }
+.submenu li a{
+    width: 80px;
+}
+
+.menu ul li:hover .submenu{
+display: block;
+}
+
+.submenu li{
+position: relative;
+
+}
+
+.lbltext
+{
+    font-size:22px;
+
+}
+
+span{
+    color: red;
+    font-style: oblique ;
+    font-size: 35px;
+}
+/*menu end*/
+.box
+{
+background-color: white;
+    border: 2px solid black;
+    width: 800px;
+    height: 1150px;
+    margin: auto;
+    margin-top: 10px;
+}
+.date,.date2{
+    margin: auto;
+    text-align: center;
+    margin-left: 50%;
+}
+.box1{
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 22px;
+
+}
+.card-title1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.card-title2{
+    margin-top: 70px;
+}
+.card-title3{
+    margin-top: 50px;
+}
+.card-title4{
+    margin-top: 50px;
+}
+.a{
+    margin-top: 15px;
+}
+.b,.c,.d,.e,.f,.g{
+    margin-top: 5px;
+}
+.card-title5{
+    margin-top: 150px;
+
+}
+/*
+.box2{
+    margin:auto;
+    width: 20%;
+    text-align: center;
+}
+.cancle{
+    margin-right: 30px;
+    margin-top: 10px;
+}*/
+.box5{
+    text-align:center;
+    margin-top:10px;
+}
+.registerbtn {
+    text-align:center;
+    padding: 10px 30px;
+    background-color: rgba(15, 140, 189, 0.856);
+    color: white;
+    border-radius: 20px;
+}
+.registerbtn:hover {
+    background-color: rgb(61, 221, 109);
+    /* border-radius:10px;*/
+}
+.lable{
+    
+}
+
+/*@media print{
+    .box2{
+        display:none;
+    }
+    }*/
+   
+    

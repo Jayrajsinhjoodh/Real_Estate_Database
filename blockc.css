@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%; height: 100vh;
+     background-image: url("rs4.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+}
+nav{
+    width:auto; height: 60px;
+    background-color: black;
+    display:flex; justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li a{
+     text-decoration: none;
+    color: rgb(135, 222, 164);
+    font-weight: bold;
+    font-size: 20px;   
+    }
+
+    
+    
+   
+ul,li
+{
+    list-style: none;
+}
+
+.menu ul li{
+   float: left;
+   position: relative;
+}
+
+
+
+.logo{
+    font-style: italic;
+  font-size: 30px;
+  color: aliceblue;
+  
+  margin-left: 90px;
+position: relative;
+    animation-name: example1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example1 {
+    0%   {transform:translateX(-8px) rotate(2deg); }
+    25%  {transform:translateX(8px) rotate(-2deg);}
+    50%  {transform:translateX(-8px) rotate(2deg);}
+    75%  {transform:translateX(8px) rotate(-2deg);}
+    100% {transform:translateX(-8px) rotate(2deg);}
+        
+}
+.menu a{
+    display: block;
+    padding: 19px 20px;
+   
+}
+.menu a:hover {
+    background-color: orange;
+    
+     
+}
+
+.menu ul li a i{
+    color:skyblue;
+       transition:1s;
+}
+
+.menu ul li a:hover i{
+    color:white;
+    transform:rotate(360deg) scale(1.5);
+    
+}
+
+.main{
+    width: 100%;
+    height: 85vh;
+    font-style: italic;
+    font-size: 40px;
+    color: rgb(60, 219, 86);
+    text-align: center;
+     
+}
+
+.menu ul li a i{
+    color:skyblue;
+       transition:1s;
+}
+
+.menu ul li a:hover i{
+    color:white;
+    transform:rotate(360deg) scale(1.5);
+ 
+}
+
+.submenu{
+    background-color: black;
+    width: 120px;
+    position: absolute;
+    display: none;
+    }
+.submenu li a{
+    width: 80px;
+}
+
+.menu ul li:hover .submenu{
+display: block;
+}
+
+.submenu li{
+position: relative;
+
+}
+span1{
+    color: red;
+    font-style: oblique ;
+    font-size: 35px;
+}
+/*menu end*/
+.box1{
+    text-align:center;
+    font-size:30px;
+    font-style:italic;
+    margin-top:20px;
+    
+}
+
